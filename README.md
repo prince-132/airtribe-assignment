@@ -1,4 +1,4 @@
-# airtribe-assignment
+# AIRTRIBE-Assignment
 
 Airtribe is an application designed for managing instructors, courses, leads, comments, and their interactions. This repository contains the backend implementation of the Airtribe application using Node.js and MySQL.
 
@@ -7,7 +7,6 @@ Airtribe is an application designed for managing instructors, courses, leads, co
  * Usage
  * Endpoints
  * Database Schema
- * Contributing
    
 # Installation
 To set up the Airtribe application locally, follow these steps:
@@ -164,12 +163,35 @@ Response:
 
 # Database Schema
 The application uses the following database schema:
-
 . instructor: Stores information about instructors.
 . courses: Stores information about courses.
 . leads: Stores information about leads for courses.
 . comments: Stores comments made by instructors or leads.
 You can find the schema definitions in the schema.js file.
 
-# Contributing
-Contributions are welcome! Feel free to open issues or pull requests for any improvements or features you'd like to add.
+# Screenshots
+. /api/addinstructor 
+
+![WhatsApp Image 2024-03-10 at 17 33 03_b613afa2](https://github.com/prince-132/airtribe-assignment/assets/117109800/6698d5fb-fe0c-4916-b9ed-507a31e56351)
+
+. /api/addcourse
+
+![WhatsApp Image 2024-03-10 at 17 33 03_4a4a5aa0](https://github.com/prince-132/airtribe-assignment/assets/117109800/7a523d9b-f74e-4272-9630-0f70bfddddee)
+
+. /api/updatecourse
+![WhatsApp Image 2024-03-10 at 17 33 03_d3eca495](https://github.com/prince-132/airtribe-assignment/assets/117109800/31ec2f14-4ca9-4225-a8f4-cea7309cedfb)
+
+. /api/register
+
+![WhatsApp Image 2024-03-10 at 17 33 03_9028df78](https://github.com/prince-132/airtribe-assignment/assets/117109800/52f74152-02c2-4ece-b496-8fa354e8cbfc)
+. /api/updateleads
+![WhatsApp Image 2024-03-10 at 17 33 21_03ed5543](https://github.com/prince-132/airtribe-assignment/assets/117109800/00c3af4e-f0f0-45b1-96a3-1d3f3c1ea7b4)
+
+. /api/searchlead
+
+![WhatsApp Image 2024-03-10 at 17 33 21_7803a6e8](https://github.com/prince-132/airtribe-assignment/assets/117109800/9f50839a-9803-4662-99da-5d741a7c7b3a)
+
+. /api/addcomment 
+![WhatsApp Image 2024-03-10 at 17 33 21_bd604c34](https://github.com/prince-132/airtribe-assignment/assets/117109800/b1f1f515-9a3a-4976-ba17-4978133c3126)
+
+
