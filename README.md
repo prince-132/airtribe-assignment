@@ -163,10 +163,10 @@ Response:
 
 # Database Schema
 The application uses the following database schema:
-. instructor: Stores information about instructors.
-. courses: Stores information about courses.
-. leads: Stores information about leads for courses.
-. comments: Stores comments made by instructors or leads.
+* instructor: Stores information about instructors.
+* courses: Stores information about courses.
+* leads: Stores information about leads for courses.
+* comments: Stores comments made by instructors or leads.
 You can find the schema definitions in the schema.js file.
 
 # Screenshots
